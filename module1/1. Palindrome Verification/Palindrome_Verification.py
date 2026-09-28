@@ -39,6 +39,7 @@ test_cases = [
     ("abo", False, "two different characters"),
 ]
 
+print("\nRunning tests:")
 passed = 0
 for text, expected, description in test_cases:
     result = isPalindrome(text)

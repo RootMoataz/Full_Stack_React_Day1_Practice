@@ -1,4 +1,4 @@
-PS C:\Users\match\projects\trainingday> & C:\Users\match\AppData\Local\Programs\Python\Python314\python.exe c:/Users/match/projects/trainingday/module1/Palindrome_Verification.py
+Running tests:
 PASS | simple odd-length palindrome        | input: 'racecar'                           | expected: True, got: True
 PASS | simple even-length palindrome       | input: 'abba'                              | expected: True, got: True
 PASS | simple non-palindrome               | input: 'hello'                             | expected: False, got: False
@@ -13,3 +13,5 @@ PASS | empty string                        | input: ''                          
 PASS | single character                    | input: 'a'                                 | expected: True, got: True
 PASS | only non-alphanumeric characters    | input: '.,!'                               | expected: True, got: True
 PASS | two different characters            | input: 'abo'                               | expected: False, got: False
+
+14/14 tests passed
